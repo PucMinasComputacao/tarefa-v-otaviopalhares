@@ -1,0 +1,134 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Corpo */
+body {
+  background-color: #f4f4f4;
+}
+
+/* Topo */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.search {
+  padding: 5px;
+  width: 200px;
+}
+
+.top-buttons button {
+  margin-left: 5px;
+  padding: 5px 10px;
+}
+
+/* Container centralizado */
+.container {
+  max-width: 1200px;   /* controla largura do site */
+  margin: 20px auto;   /* centraliza na tela */
+  display: flex;
+  gap: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 200px;
+  background: #ddd;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.sidebar button {
+  display: block;
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 8px;
+  border: none;
+  background: #555;
+  color: white;
+  cursor: pointer;
+}
+
+.sidebar h4 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.sub-box {
+  height: 50px;
+  background: #bbb;
+  margin-bottom: 8px;
+  border-radius: 5px;
+}
+
+/* Conteúdo principal */
+.content {
+  flex: 1;
+}
+
+/* Menu interno */
+.menu {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.menu button {
+  padding: 8px 12px;
+}
+
+/* Banner */
+.banner {
+  height: 150px;
+  background: #999;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Títulos */
+h3 {
+  margin: 15px 0 10px;
+}
+
+/* Grid de vídeos */
+.videos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+/* Cards */
+.video-card {
+  height: 100px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+}
