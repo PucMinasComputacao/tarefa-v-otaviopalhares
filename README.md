@@ -16,11 +16,11 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 
 ## Print da versão responsiva com CSS puro [DESKTOP]
 
-https://github.com/PucMinasComputacao/tarefa-v-otaviopalhares/blob/main/desktop.png
+![DESKTOP](https://github.com/PucMinasComputacao/tarefa-v-otaviopalhares/blob/main/desktop.png)
 
 ## Print da versão responsiva com CSS puro [MOBILE] (*)
 
-https://github.com/PucMinasComputacao/tarefa-v-otaviopalhares/blob/main/mobile.png?raw=true
+![MOBILE](https://github.com/PucMinasComputacao/tarefa-v-otaviopalhares/blob/main/mobile.png?raw=true)
 
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 
