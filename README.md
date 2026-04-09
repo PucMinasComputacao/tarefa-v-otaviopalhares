@@ -11,8 +11,8 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 
 - Nome: Otávio Palhares Meira 
 - Matricula: 914846
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Proposta de projeto escolhida: Site baseado na cidade de Igarapé - MG.
+- Breve descrição sobre seu projeto: O site contém uma breve explicação da história da cidade, seus pontos turísticos, os restaurantes famosos e a cultura tradicional. O foco do site é trazer informações para o espectador sobre a cidade de forma geral.
 
 ## Print da versão responsiva com CSS puro [DESKTOP]
 
